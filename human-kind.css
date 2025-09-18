@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+first{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+
+
+nav{
+background-color: #000000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 40px;
+position:fixed;
+width:100%;
+top:0%;
+}
+
+.nav-logo{
+    font-size: 42px;
+    color:#d5d5d5;
+}
+
+.nav-logo:hover{
+    font-size:50px;
+    color:#d5d5d5
+}
+.nav-link{
+    display: flex;
+}
+
+.nav-link a, .nav-cta a{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:500 ;
+  font-size: 10px;
+}
+
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-cta a{
+    font-weight: 600;
+}
+
+.nav-cta button{
+    padding:10px 40px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 4px;
+    border:none;
+}
+
+header{
+    height:100vh;
+    background-image: url('');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content button{
+    padding:20px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border:1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 4px;
+
+}
+
+.head-content button:hover{
+    background-color: white;
+    color:#000000;
+}
+
+.head-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
