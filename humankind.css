@@ -16,9 +16,7 @@ nav {
     top: 0;
     z-index: 3;
 }
- .navbar-brand{
-    color:white;
-}
+
 
 .start {
     display: flex;
@@ -96,9 +94,9 @@ header button:hover {
     transition: 0.4s;
 }
 
-hr {
+/* hr {
     border: 5px solid white
-}
+} */
 
 .sec1 {
     display: flex;
@@ -145,7 +143,7 @@ hr {
 .vid-title {
     text-transform: uppercase;
     position: absolute;
-    bottom: 40%;
+    bottom: 43%;
     left: 5%;
     font-size: 1.0rem;
     text-align: center;
@@ -159,7 +157,7 @@ hr {
 
 .vid-group h1 {
     /* width: 100%; */
-    max-width: 161px;
+    max-width: 145px;
     text-align: center;
     font-size: 0.8rem;
 
@@ -175,7 +173,7 @@ hr {
 .vid-group h2 {
     font-size: 0.7rem;
     font-weight: 600;
-    padding: 10px 0px;
+    /* padding: 1px 0px; */
     text-transform: uppercase;
     text-align: start;
     max-width: 167px;
@@ -552,12 +550,14 @@ footer {
     .flex-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 64px;
-        align-items: center;
+        gap: 25px;
+        margin:0 10px;
+
+        /* align-items: center; */
     }
 
     .vid-group video {
-        max-width: 279px;
+        max-width: 239px;
         width: 100%;
         border-radius: 16px;
         position: relative;
@@ -565,23 +565,23 @@ footer {
 
     .vid-group h1 {
         width: 100%;
-        max-width: 250px;
+        max-width: 201px;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 0.7rem;
         font-weight: 600;
         position: absolute;
-        bottom: 36%;
+        bottom: 46%;
     }
 
     .vid-group p {
         width: 100%;
-        max-width: 272px;
-        font-size: 1.1rem;
+        max-width: 232px;
+        font-size: 1rem;
         text-align: start;
     }
 
     .vid-group h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 600;
         padding: 10px 0px;
         text-transform: uppercase;
@@ -595,6 +595,9 @@ footer {
         top:10%;
     }
     
+    .group2 div{
+        gap:0;
+    }
 
     .group2 div h2 {
         font-size: 2.5rem;
@@ -622,7 +625,7 @@ footer {
      }
 
     .sect3 {
-        height: 150vh;
+        height: 122vh;
         padding: 80px 0;
     }
 
@@ -633,11 +636,13 @@ footer {
     }
 
     .sect3-text p {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
         max-width: 327px;
         width: 100%;
     }
-
+.sect3-text{
+    gap:15px;
+}
     .sect3-text .pp {
         max-width: 312px;
         width: 100%;
@@ -663,7 +668,7 @@ footer {
     }
 
     .sect4-top {
-        height: 100vh;
+        height: 72vh;
     }
 
     .sect4-top .anime-text1,
@@ -683,6 +688,8 @@ footer {
     .sec4-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding:0 100px;
+        /* object-fit: cover; */
     }
 
     .sec4-content>img {
@@ -728,6 +735,7 @@ footer {
 
     footer {
         padding: 30px 85px;
+        gap:15px;
     }
     .p-end1{
         font-size: 67%;
@@ -745,11 +753,14 @@ footer {
     }
     
 .img-bg img{
-max-width:100%;
-/* width:100%; */
+max-width:82%;
+width:100%;
 }
 }
 @media  screen and (max-width:427px) {
+     hr{
+        margin: 0rem;
+    }
     .group2{
         flex-direction: column;
         object-fit: cover;
@@ -758,7 +769,15 @@ max-width:100%;
     .group2 div{
         text-align: center;
         place-items: center;
+        gap: 22px;
     }
+    .group2 ul {
+    margin: 0px;
+}
+
+.group2 ul li {
+    margin-left: 0px;
+}
     .sec2{
         height: 117vh;
     }
@@ -789,6 +808,15 @@ max-width:100%;
     font-size: 1.1rem;
     max-width: 300px;
     width:100%;
+
+}
+.vid-group h1{
+    width:168px;
+    bottom:54%;
+}
+.sect3{
+    padding: 0;
+    height:160vh;
 }
 .sect3-col{
     align-items: center;
@@ -801,7 +829,7 @@ max-width:100%;
 }
 footer {
         padding: 30px 21px;
-    height:130vh;
+    height:141vh;
 
     }
         .p-end {
@@ -848,8 +876,14 @@ footer{
     max-width: 139px;
     width:100%;
 }
+.img-bg img{
+    width:42%;
+}
 .sec4-head{
     padding: 0;
+}
+.sec4-content{
+    padding:0;
 }
 }
 
