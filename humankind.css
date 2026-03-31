@@ -765,6 +765,8 @@ width:100%;
         flex-direction: column;
         object-fit: cover;
         top:0%;
+        position: relative;
+        padding: 20px 20px 40px;
     }
     .group2 div{
         text-align: center;
@@ -779,7 +781,9 @@ width:100%;
     margin-left: 0px;
 }
     .sec2{
-        height: 117vh;
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 0 60px;
     }
     .sect3{
         flex-wrap: wrap;
@@ -812,7 +816,7 @@ width:100%;
 }
 .vid-group h1{
     width:168px;
-    bottom:54%;
+    bottom:59%;
 }
 .sect3{
     padding: 0;
@@ -829,7 +833,8 @@ width:100%;
 }
 footer {
         padding: 30px 21px;
-    height:141vh;
+    height: auto;
+    min-height: 100vh;
 
     }
         .p-end {
@@ -876,8 +881,15 @@ footer{
     max-width: 139px;
     width:100%;
 }
+.img-bg{
+    max-width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .img-bg img{
-    width:42%;
+    width: 42%;
+    max-width: 64px;
 }
 .sec4-head{
     padding: 0;
@@ -911,10 +923,10 @@ footer{
 .group2 ul li {
     margin-left: 30px;
 }.group2 img{
-    position:absolute;
-    left:10px;
-    max-width:300px;
-    bottom:-40%;
+    position: relative;
+    left: 0;
+    max-width: 300px;
+    bottom: 0;
 }
 
 }
