@@ -882,7 +882,7 @@ footer{
     width:100%;
 }
 .img-bg{
-    max-width: 100%;
+    max-width: 67%;
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
